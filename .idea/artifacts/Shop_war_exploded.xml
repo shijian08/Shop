@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Shop:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Shop_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Shop/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Shop" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="javax.servlet.jsp.jstl" />
+          <element id="library" level="project" name="javax.transaction" />
+          <element id="library" level="project" name="javax.resource" />
+          <element id="library" level="project" name="javax.persistence" />
+          <element id="library" level="project" name="javax.jms" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jspSmartUpload.jar" />
+          <element id="library" level="project" name="javax.annotation" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-io-2.13.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.5.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
